@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B226C1B824BF6642008AC340 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B226C1B724BF6642008AC340 /* AvatarView.swift */; };
+		B237AC3D24E56B1E0069B905 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = B237AC3C24E56B1E0069B905 /* Session.swift */; };
 		B26851DE24BDBE9400AFC4A8 /* AllGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26851DD24BDBE9400AFC4A8 /* AllGroupsViewController.swift */; };
 		B26851E024BDBEAA00AFC4A8 /* AllGroupsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26851DF24BDBEAA00AFC4A8 /* AllGroupsCell.swift */; };
+		B27C15D524D19D9000E00AFA /* ReactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C15D424D19D9000E00AFA /* ReactionViewController.swift */; };
 		B284546A24BDAB5200C233B9 /* MyGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B284546924BDAB5200C233B9 /* MyGroupsViewController.swift */; };
 		B284546C24BDAB8600C233B9 /* MyGroupsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B284546B24BDAB8600C233B9 /* MyGroupsCell.swift */; };
 		B2CA322E24AF169900FC5999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CA322D24AF169900FC5999 /* AppDelegate.swift */; };
@@ -29,8 +31,10 @@
 
 /* Begin PBXFileReference section */
 		B226C1B724BF6642008AC340 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		B237AC3C24E56B1E0069B905 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		B26851DD24BDBE9400AFC4A8 /* AllGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupsViewController.swift; sourceTree = "<group>"; };
 		B26851DF24BDBEAA00AFC4A8 /* AllGroupsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupsCell.swift; sourceTree = "<group>"; };
+		B27C15D424D19D9000E00AFA /* ReactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionViewController.swift; sourceTree = "<group>"; };
 		B284546924BDAB5200C233B9 /* MyGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsViewController.swift; sourceTree = "<group>"; };
 		B284546B24BDAB8600C233B9 /* MyGroupsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsCell.swift; sourceTree = "<group>"; };
 		B2CA322A24AF169900FC5999 /* VK client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VK client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +121,7 @@
 		B2CA322C24AF169900FC5999 /* VK client */ = {
 			isa = PBXGroup;
 			children = (
+				B237AC3C24E56B1E0069B905 /* Session.swift */,
 				B2CA322D24AF169900FC5999 /* AppDelegate.swift */,
 				B2CA322F24AF169900FC5999 /* SceneDelegate.swift */,
 				B2CA323124AF169900FC5999 /* ViewController.swift */,
@@ -129,8 +134,9 @@
 				B2CA323324AF169900FC5999 /* Main.storyboard */,
 				B2CA323824AF169B00FC5999 /* LaunchScreen.storyboard */,
 				B2CA323B24AF169B00FC5999 /* Info.plist */,
-				B2E668B624C1C7D30038B85E /* LikeControl.swift */,
 				B226C1B724BF6642008AC340 /* AvatarView.swift */,
+				B2E668B624C1C7D30038B85E /* LikeControl.swift */,
+				B27C15D424D19D9000E00AFA /* ReactionViewController.swift */,
 			);
 			path = "VK client";
 			sourceTree = "<group>";
@@ -223,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2CA324424B8B43100FC5999 /* MyFriendsCell.swift in Sources */,
+				B237AC3D24E56B1E0069B905 /* Session.swift in Sources */,
 				B2E668B724C1C7D30038B85E /* LikeControl.swift in Sources */,
 				B226C1B824BF6642008AC340 /* AvatarView.swift in Sources */,
 				B2CA324224B8B0B600FC5999 /* MyFriendsViewController.swift in Sources */,
@@ -233,6 +240,7 @@
 				B284546C24BDAB8600C233B9 /* MyGroupsCell.swift in Sources */,
 				B26851DE24BDBE9400AFC4A8 /* AllGroupsViewController.swift in Sources */,
 				B2CA324824B8D98600FC5999 /* MyFriendsPicturesCell.swift in Sources */,
+				B27C15D524D19D9000E00AFA /* ReactionViewController.swift in Sources */,
 				B2E668B924CB2B000038B85E /* NewsViewController.swift in Sources */,
 				B2CA324624B8D96200FC5999 /* MyFriendsPictures.swift in Sources */,
 				B2E668BC24CB2BE60038B85E /* NewsViewControllerCell.swift in Sources */,

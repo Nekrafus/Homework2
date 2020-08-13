@@ -23,7 +23,7 @@ struct News
 var AllNews: [News] =
     
 [
-    News("Описание1", UIImage(named: "darkfit")),
+    News("Адвокат Ефремова Эльман Пашаев заявил о том, что актер «данное преступление не совершал». При этом представитель потерпевшей стороны Александр Добровинский сообщил о том, что Ефремов сначала признал вину, затем отказался.В", UIImage(named: "darkfit")),
     News("Описание2", UIImage(named: "darkfit")),
     News("Описание3", UIImage(named: "darkfit")),
     News("Описание4", UIImage(named: "darkfit"))
